@@ -49,13 +49,16 @@ The prompt is constrained to behavior a model can actually perform within its av
 
 ## Scope
 
-This is **not a general-purpose guide to all prompt engineering**.
+The **Prompt Engineer's Field Guide** is intended as a practical, evolving guide to prompt engineering.
 
-Thinking is one domain of prompt engineering.
+It is not comprehensive yet.
 
-This framework concentrates on the integrity of reasoning and context: what a system knows, why it is entitled to claim it, how that knowledge changes, and how generated context should and should not influence subsequent reasoning.
+**Thinking** is the first developed domain: a framework for the epistemic side of prompt engineering, including evidence, inference, provenance, working context, contradiction, compression, and recovery.
 
-Other prompt-engineering concerns, such as interaction design, persona construction, stylistic control, tool orchestration, task decomposition, or output design, may intersect with the framework but are not its primary subject.
+Future domains may extend the Field Guide into other areas of prompt engineering as useful principles emerge and survive practical testing. The project is deliberately grown from observed problems and tested solutions rather than from an attempt to define the entire field in advance.
+
+The current contents should therefore be read as a beginning, not a boundary.
+
 
 ## Design Philosophy
 
