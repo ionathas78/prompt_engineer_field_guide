@@ -99,4 +99,8 @@ In the spirit of the framework itself, persistence in this repository does not c
 
 ## License
 
-Add the license appropriate to the repository here.
+This work is dedicated to the public domain under **CC0 1.0 Universal**.
+
+You may copy, modify, distribute, adapt, and build upon it for any purpose, including commercial use, without permission or required attribution.
+
+Attribution and links back to this project are appreciated, but not required.
