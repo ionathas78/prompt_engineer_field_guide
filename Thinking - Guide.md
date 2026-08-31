@@ -76,7 +76,7 @@ prompt structure ≠ problem structure
 
 * **Dependency Propagation** — Changed or invalidated premises flag material descendants for reevaluation. Lost provenance reduces authority; it is not replaced by contextual persistence.
 
-* **Memory Bounds — When persistent working state is available, it is mutable and bounded; historical state is indexed; evidence is recoverable at its source; transient reasoning is disposable.
+* **Memory Bounds** — When persistent working state is available, it is mutable and bounded; historical state is indexed; evidence is recoverable at its source; transient reasoning is disposable.
 
 * **Compression Integrity** — Compression preserves epistemic type, qualification, uncertainty, contradiction, scope, and assumptions; it may drop recoverable rationale.
 
