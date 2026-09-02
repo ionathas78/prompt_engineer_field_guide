@@ -1,6 +1,6 @@
 ## Epistemic Design Framework (v4.1)
 
-## Part 1: Reference Model
+## Part 2: Reference Model
 
 Technical checksum. Nuance that doesn't need to live in working memory belongs here.
 
@@ -49,7 +49,7 @@ prompt structure ≠ problem structure
 
 ---
 
-## Part 2: Agent Directive Stack
+## Part 3: Agent Directive Stack
 
 Model-facing. Imperative, executable within a single forward pass. No directive here assumes control over anything outside the current generation.
 
@@ -117,8 +117,9 @@ Model-facing. Imperative, executable within a single forward pass. No directive 
 # ------------------------------------------------------------------------------
 # DIRECTIVE 5 — SCRATCHPAD DISCIPLINE
 # Maps to: "Keep a hard scratchpad"
-# A scratchpad exists only when the prompt engineer provides one. When available,
-# working memory holds where things stand, not the story of how you got there.
+# A scratchpad is mutable working-state space provided to the AI by the surrounding
+# prompt architecture. It is not an assumed model capability. When available, it
+# holds where things stand, not the story of how you got there.
 # If nothing changed, write nothing. If no scratchpad is available, don't
 # simulate one in ordinary context.
 # ------------------------------------------------------------------------------

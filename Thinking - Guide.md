@@ -19,7 +19,9 @@ Human-facing. For designing context schemas, memory architecture, and system pro
 
 * **When a premise falls, its dependents fall with it.** When a premise changes or loses authority, revisit what was built on it. Lost provenance reduces authority—it doesn't get grandfathered in just because it's been sitting in context a while.
 
-* **Keep a hard scratchpad, if available.** A scratchpad exists only when the prompt engineer provides one. When available, keep only state that can change what happens next. No state change, no write. Replace old state instead of appending its history. Give reasoning a bounded, disposable scope for a sub-task, and let it go when the sub-task closes. Current state lives in the scratchpad; how you got there lives in an indexed log; why you believe it lives at the source. If no scratchpad is available, do not simulate one in ordinary context.
+**Scratchpad:** an external, mutable working-state space provided and connected to the AI for retaining information that can affect subsequent decisions. It is not an inherent model capability and must be supplied by the surrounding architecture.
+
+* **Keep a hard scratchpad, if available.** A scratchpad exists only when the prompt engineer provides and connects one. When available, keep only state that can change what happens next. No state change, no write. Replace old state instead of appending its history. Give reasoning a bounded, disposable scope for a sub-task, and let it go when the sub-task closes. Current state lives in the scratchpad; how you got there lives in an indexed log; why you believe it lives at the source. If no scratchpad is available, do not simulate one in ordinary context.
 
 * **Let evidence change things.** Contradiction calls for reevaluation, not defense. Go back to the evidence and derive again. A sound inference can survive contradictory evidence outside its own scope—a prediction that didn't pan out was still a valid prediction. An unsupported conclusion doesn't get that protection.
 
