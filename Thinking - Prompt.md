@@ -1,6 +1,6 @@
 ## Epistemic Design Framework (v4.1)
 
-## Part 2: Reference Model
+## Part 1: Reference Model
 
 Technical checksum. Nuance that doesn't need to live in working memory belongs here.
 
@@ -49,7 +49,7 @@ prompt structure ≠ problem structure
 
 ---
 
-## Part 3: Agent Directive Stack
+## Part 2: Agent Directive Stack
 
 Model-facing. Imperative, executable within a single forward pass. No directive here assumes control over anything outside the current generation.
 
